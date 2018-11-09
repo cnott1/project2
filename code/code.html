@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="codestyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+<body>
+	<div id="pageGrid">
+		<div class="grid-rowspan2 header">
+			<p>
+				<span  class="links">
+					<a href="../homepage/homepage.html">Homepage</a>
+					<br>
+				</span>
+				<span class="large">C<br>O<br>D<br>E</span>
+			</p>
+		</div>
+		
+		<div class="txt grid-rowspan2">
+			<p>
+				<span class="pixelated">{!DOCTYPE superior}</span><br> I am far superior in coding for many reasons.
+				My opponent claims to be a master of HTML, CSS, and Python programming languages, when in fact he has almost no understanding of any of them.
+				His websites with HTML and CSS are almost nonexistant, whereas I have dozens to show. He used youtube tutorials to practically copy code for a Discord (program) bot.<br>
+				I have programmed my websites with Javascript, a language with complex syntax and limitless potential. I did this with no tutorials, but grit and determination
+				needed in an electoral candidate.<span id="flashing">|</span>
+				<br><br><br><br>
+				<a href="../cta/cta.html">Vote Today!</a>
+			</p>
+		</div>
+		
+		<img src="../images/c6.jpg" />
+		
+		<img src="../images/r1.jpg" />
+		
+		
+		<div class="fireBG"></div>
+	</div>
+	
+	<script>
+		var io = 1;
+		var text = document.getElementById("flashing");
+		function flash() {
+			if (io === 1) {
+				text.innerHTML = "";
+				io = 0;
+			} else {
+				text.innerHTML = "|";
+				io = 1;
+			}
+		}
+		setInterval(flash, 700);
+	</script>
+</body>
+</html>

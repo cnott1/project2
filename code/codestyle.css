@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	font-family: "Bree Serif";
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: red;
+}
+
+#pageGrid {
+	display: grid;
+	width: 100wh;
+	height: 100vh;
+	grid-template: 50fr 50fr / 10fr 30fr 10fr;
+}
+
+
+.grid-rowspan3 {
+	grid-row-end: span 3;
+}
+
+.grid-rowspan2 {
+	grid-row-end: span 2;
+}
+
+.header {
+	background-color: yellow;
+	text-align: center;
+	background-color: orange;	
+	overflow: auto;
+}
+
+.txt {
+	color: lime;
+	background-color: black;
+	padding: 5vw;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.txt  p {
+	font-family: "Source Code Pro";
+	line-height: 1.6em;
+	font-size: 25px;
+}
+
+.pixelated {
+	font-family: "Press Start 2P";
+	font-size: 15px;
+}
+
+.cta {
+	width: 70%;
+	height: 70%;
+	justify-self: center;
+	align-self: end;
+	background-color: yellow;
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	z-index: 2;
+}
+
+.cta a {
+	margin: auto;
+	width: 100px;
+	text-align: center;
+}
+
+.cta a:hover {
+	color: black;
+}
+.large {
+	font-size: 140px;
+	color: white;
+}
+
+.links {
+	width: 100%;
+}
+
+.fireBG {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	background-image: url("../images/fire.jfif");
+}
+
+.links a {
+	color: red;
+	font-size: 30px;
+	padding: 10px;
+	line-height: 60px;
+}
+
+.links a:hover {
+	color: yellow;
+	background-color: red;
+}
+
+img {
+	padding: 20px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	font-family: "Bree Serif";
+}
+
+body {
+	background-color: yellow;
+}
+
+#pageGrid {
+	display: grid;
+	width: 100wh;
+	height: 100vh;
+	grid-template: 5fr 2fr 25fr / 30fr 30fr 30fr;
+}
+
+#pageGrid div {
+	width: 99%;
+	height: 99%;
+	align-self: center;
+	justify-self: center;
+}
+
+.grid-colspan3 {
+	grid-column-end: span 3;
+}
+
+
+a {
+	margin-left: 40px;
+	margin-right: 40px;
+	color: red;
+	font-size: 25px;
+	padding: 20px
+}
+
+a:hover {
+	color: yellow;
+	background-color: red;
+}
+
+p {
+	text-align: center;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+form {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	line-height: 9vw;
+}
+
+.header {
+	background-color: red;
+	background-image: linear-gradient(to right, yellow, red, yellow); 
+}
+
+.header p {
+	font-size: 70px;
+}
+
+.links {
+	background-color: black;
+}
+
+.vote {
+	width: 70%;
+	height: 70%;
+}
+
+.img {
+	height: 80%;
+}

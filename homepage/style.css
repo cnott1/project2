@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	font-family: "Bree Serif";
+}
+
+body {
+	background-color: red;
+}
+
+#pageGrid {
+	display: grid;
+	width: 100wh;
+	height: 100vh;
+	grid-template: 5fr 5fr 30fr 5fr / 30fr 30fr 30fr;
+}
+
+#pageGrid div {
+	width: 99%;
+	height: 99%;
+	align-self: center;
+	justify-self: center;
+	box-style: border-box;
+}
+
+.grid-colspan3 {
+	grid-column-end: span 3;
+}
+
+.grid-rowspan2 {
+	grid-row-end: span 2;
+}
+
+.links a {
+	margin-left: 40px;
+	margin-right: 40px;
+	color: red;
+	font-size: 25px;
+	padding: 20px
+}
+
+a:hover {
+	color: yellow;
+	background-color: red;
+}
+
+p {
+	text-align: center;
+	padding: 10px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	background-color: red;
+	background-image: linear-gradient(to right, yellow, red, yellow); 
+}
+
+.links {
+	background-color: black;
+}
+
+.txt {
+	background-color: yellow;
+}
+
+.txt p {
+	padding: 50px;
+	font-family: Lobster;
+}
+
+.cta {
+	text-align: center;
+	background-color: black;
+}
+
+.ballotBox {
+	background-image: url("../images/vote.png");
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+.ballotBox:hover {
+	border: 10px solid lime;
+}
